@@ -1,7 +1,11 @@
+import Header from "../components/global/Header";
+import Jumbotron from "../components/landing/Jumbotron";
+
 const LandingPage = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello</h1>
+      <Header />
+      <Jumbotron />
     </>
   );
 };
