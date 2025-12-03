@@ -1,6 +1,6 @@
 const Jumbotron = () => {
   return (
-    <section className="bg-neutral-primary mt-8 mb-8">
+    <section className="mx-auto max-w-screen-xl lg:py-16 bg-neutral-primary mt-8">
       <div className="">
         <div className="bg-neutral-secondary-soft border border-default rounded-base p-8 md:p-12 mb-8">
           <span className="inline-flex items-center bg-brand-softer border border-brand-subtle text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm">
@@ -55,11 +55,11 @@ const Jumbotron = () => {
             </svg>
           </button>
         </div>
-        <div class="grid md:grid-cols-2 gap-8">
-          <div class="bg-neutral-secondary-soft border border-default rounded-base p-8 md:p-12">
-            <span class="inline-flex items-center bg-brand-softer border border-brand-subtle text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm">
+        <div className="grid md:grid-cols-2 gap-8">
+          <div className="bg-neutral-secondary-soft border border-default rounded-base p-8 md:p-12">
+            <span className="inline-flex items-center bg-brand-softer border border-brand-subtle text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm">
               <svg
-                class="w-3 h-3 me-1"
+                className="w-3 h-3 me-1"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -77,21 +77,21 @@ const Jumbotron = () => {
               </svg>
               Design
             </span>
-            <h2 class="text-heading text-3xl font-semobild my-4">
+            <h2 className="text-heading text-3xl font-semobild my-4">
               Start with Flowbite Design System
             </h2>
-            <p class=" font-normal text-body mb-4">
+            <p className=" font-normal text-body mb-4">
               Static websites are now used to bootstrap lots of websites and are
               becoming the basis for a variety of tools that even influence both
               web designers and developers.
             </p>
             <a
               href="#"
-              class="text-fg-brand hover:underline font-medium text-lg inline-flex items-center"
+              className="text-fg-brand hover:underline font-medium text-lg inline-flex items-center"
             >
               Read more
               <svg
-                class="w-6 h-6 rtl:rotate-180 ms-1.5"
+                className="w-6 h-6 rtl:rotate-180 ms-1.5"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -109,10 +109,10 @@ const Jumbotron = () => {
               </svg>
             </a>
           </div>
-          <div class="bg-neutral-secondary-soft border border-default rounded-base p-8 md:p-12">
-            <span class="inline-flex items-center bg-brand-softer border border-brand-subtle text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm">
+          <div className="bg-neutral-secondary-soft border border-default rounded-base p-8 md:p-12">
+            <span className="inline-flex items-center bg-brand-softer border border-brand-subtle text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm">
               <svg
-                class="w-3 h-3 me-1"
+                className="w-3 h-3 me-1"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -130,21 +130,21 @@ const Jumbotron = () => {
               </svg>
               Code
             </span>
-            <h2 class="text-heading text-3xl font-semobild my-4">
+            <h2 className="text-heading text-3xl font-semobild my-4">
               Best react libraries around the web
             </h2>
-            <p class=" font-normal text-body mb-4">
+            <p className=" font-normal text-body mb-4">
               Static websites are now used to bootstrap lots of websites and are
               becoming the basis for a variety of tools that even influence both
               web designers and developers.
             </p>
             <a
               href="#"
-              class="text-fg-brand hover:underline font-medium text-lg inline-flex items-center"
+              className="text-fg-brand hover:underline font-medium text-lg inline-flex items-center"
             >
               Read more
               <svg
-                class="w-6 h-6 rtl:rotate-180 ms-1.5"
+                className="w-6 h-6 rtl:rotate-180 ms-1.5"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

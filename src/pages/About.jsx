@@ -1,3 +1,4 @@
+import Gallery from "../components/about/Gallery";
 import Footer from "../components/global/Footer";
 import Header from "../components/global/Header";
 
@@ -5,7 +6,7 @@ const About = () => {
   return (
     <>
       <Header />
-      <p>Welcome to About page</p>
+      <Gallery />
       <Footer />
     </>
   );
