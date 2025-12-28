@@ -1,71 +1,79 @@
 import { useState } from "react";
 
 const ServicesCard = ({
-	imgSrc,
-	imgAlt,
-	title,
-	description,
-	button,
-	cardDetail,
+  imgSrc,
+  imgAlt,
+  title,
+  description,
+  button,
+  cardDetail,
 }) => {
-	const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-	return (
-		<div className="bg-neutral-primary-soft block max-w-sm border border-default rounded-base shadow-xs mb-8">
-			<img className="rounded-t-base" src={imgSrc} alt={imgAlt} />
-			<div className="p-6 text-center">
-				<span className="inline-flex items-center bg-brand-softer border border-brand-subtle text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm">
-					<svg
-						className="w-3 h-3 me-1"
-						aria-hidden="true"
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						fill="none"
-						viewBox="0 0 24 24">
-						<path
-							stroke="currentColor"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M18.122 17.645a7.185 7.185 0 0 1-2.656 2.495 7.06 7.06 0 0 1-3.52.853 6.617 6.617 0 0 1-3.306-.718 6.73 6.73 0 0 1-2.54-2.266c-2.672-4.57.287-8.846.887-9.668A4.448 4.448 0 0 0 8.07 6.31 4.49 4.49 0 0 0 7.997 4c1.284.965 6.43 3.258 5.525 10.631 1.496-1.136 2.7-3.046 2.846-6.216 1.43 1.061 3.985 5.462 1.754 9.23Z"
-						/>
-					</svg>
-					{title}
-				</span>
-				<h5 className="mt-3 mb-6 text-2xl font-semibold tracking-tight text-heading">
-					{description}
-				</h5>
-				<button
-					onClick={() => setIsOpen(true)}
-					className="inline-flex items-center text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none"
-					type="button">
-					{button}
-				</button>
+  return (
+    <>
+      {/* CARD */}
+      <div className="bg-neutral-primary-soft w-full flex flex-col border border-default rounded-base shadow-xs overflow-hidden">
 
-				{isOpen && (
-					<div className="fixed inset-0 z-50 flex justify-center items-center">
-						<div class="relative p-4 w-full max-w-2xl max-h-full">
-							<div class="relative bg-neutral-primary-soft border border-default rounded-base shadow-sm p-4 md:p-6">
-								<div class="space-y-4 md:space-y-6 py-4 md:py-6">
-									<p class="leading-relaxed text-body">{cardDetail}</p>
-								</div>
+        {/* IMAGE */}
+        <img
+          className="w-full h-32 sm:h-36 object-cover"
+          src={imgSrc}
+          alt={imgAlt}
+        />
 
-								<div class="flex items-center justify-center border-t border-default pt-4 md:pt-5">
-									<button
-										onClick={() => setIsOpen(false)}
-										type="button"
-										class="text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">
-										Close
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				)}
-			</div>
-		</div>
-	);
+        {/* CONTENT */}
+        <div className="p-4 text-center flex-1 flex flex-col">
+
+          {/* BADGE */}
+          <span className="mx-auto inline-flex items-center bg-brand-softer border border-brand-subtle text-fg-brand-strong text-xs font-medium px-2 py-1 rounded-sm">
+            {title}
+          </span>
+
+          {/* DESCRIPTION */}
+          <h5 className="mt-3 mb-4 text-sm sm:text-base text-heading line-clamp-3">
+            {description}
+          </h5>
+
+          {/* BUTTON */}
+          <div className="mt-auto">
+            <button
+              onClick={() => setIsOpen(true)}
+              className="w-full sm:w-auto mx-auto inline-flex justify-center items-center text-white bg-brand hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium rounded-base text-sm px-4 py-2 focus:outline-none"
+              type="button"
+            >
+              {button}
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      {/* MODAL */}
+      {isOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 px-4">
+          <div className="relative w-full max-w-2xl">
+            <div className="bg-neutral-primary-soft border border-default rounded-base shadow-sm p-4 sm:p-6">
+
+              <p className="text-sm sm:text-base leading-relaxed text-body mb-6">
+                {cardDetail}
+              </p>
+
+              <div className="flex justify-center">
+                <button
+                  onClick={() => setIsOpen(false)}
+                  className="text-white bg-brand hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium rounded-base text-sm px-6 py-2"
+                >
+                  Close
+                </button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
 };
 
 export default ServicesCard;
