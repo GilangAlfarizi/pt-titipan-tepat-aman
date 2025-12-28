@@ -3,18 +3,17 @@ export const Jumbotron = () => {
     <section className="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-dark bg-blend-multiply">
       <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1 className="mb-6 text-4xl font-bold tracking-tighter text-white md:text-5xl lg:text-6xl">
-          We invest in the world’s potential
+          Solusi Logistik Export & Import yang Aman dan Tepat Waktu
         </h1>
         <p className="mb-8 text-base font-normal text-white md:text-xl sm:px-16 lg:px-48">
-          Here at Flowbite we focus on markets where technology, innovation, and
-          capital can unlock long-term value and drive economic growth.
+          PT Titipan Tepat Aman hadir sebagai mitra logistik terpercaya yang menyediakan layanan export dan import terintegrasi. Kami memastikan setiap pengiriman dikelola secara profesional, aman, dan sesuai regulasi internasional.
         </p>
         <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 md:space-x-4">
           <button
             type="button"
             className="inline-flex items-center justify-center text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium rounded-base text-base px-5 py-3 focus:outline-none"
           >
-            Getting started
+            Konsultasi Sekarang
             <svg
               className="w-4 h-4 ms-1.5 -me-0.5"
               aria-hidden="true"
@@ -37,7 +36,7 @@ export const Jumbotron = () => {
             type="button"
             className="text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-base text-base px-5 py-3 focus:outline-none"
           >
-            Learn more
+            Tentang Kami
           </button>
         </div>
       </div>

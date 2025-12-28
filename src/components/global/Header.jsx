@@ -5,9 +5,9 @@ const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const navItems = [
-		{ path: "/", label: "Home" },
-		{ path: "/services", label: "Services" },
-		{ path: "/about", label: "About" },
+		{ path: "/", label: "Beranda" },
+		{ path: "/services", label: "Layanan" },
+		{ path: "/about", label: "Tentang Kami" },
 	];
 
 	return (
@@ -17,19 +17,19 @@ const Header = () => {
 					href="https://flowbite.com/"
 					className="flex items-center space-x-3 rtl:space-x-reverse">
 					<img
-						src="https://flowbite.com/docs/images/logo.svg"
+						src="https://ik.imagekit.io/ferdyawans/pt-titipan-tepat-aman-revisi.png"
 						className="h-7"
-						alt="Flowbite Logo"
+						alt="PT Titipan Tepat Aman Logo"
 					/>
 					<span className="self-center text-xl text-heading font-semibold whitespace-nowrap">
-						Flowbite
+						PT Titipan Tepat Aman
 					</span>
 				</a>
 				<div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 					<button
 						type="button"
 						className="text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none">
-						Contact Us
+						Hubungi Kami
 					</button>
 					<button
 						data-collapse-toggle="navbar-sticky"

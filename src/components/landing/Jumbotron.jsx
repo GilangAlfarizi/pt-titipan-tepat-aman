@@ -21,21 +21,19 @@ const Jumbotron = () => {
                 d="M14 6H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1Zm7 11-6-2V9l6-2v10Z"
               />
             </svg>
-            Tutorial
+            Tentang Perusahaan
           </span>
           <h1 className="text-heading tracking-tighter text-3xl md:text-5xl font-bold my-6">
-            How to quickly deploy <br />a static website
+            Mitra Logistik Export <br />& Import yang Aman dan Terpercaya
           </h1>
           <p className="md:text-lg font-normal text-body mb-6">
-            Static websites are now used to bootstrap lots of websites and are
-            becoming the basis for a variety of tools that even influence web
-            designers.
+            PT Titipan Tepat Aman adalah perusahaan logistik yang berfokus pada layanan export dan import. Kami menyediakan solusi pengiriman internasional yang terintegrasi, aman, dan tepat waktu untuk mendukung kelancaran bisnis Anda.
           </p>
           <button
             type="button"
             className="inline-flex items-center justify-center text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium rounded-base text-base px-5 py-3 focus:outline-none"
           >
-            Getting started
+            Hubungi Kami
             <svg
               className="w-4 h-4 ms-1.5 -me-0.5"
               aria-hidden="true"
@@ -75,21 +73,19 @@ const Jumbotron = () => {
                   d="M12 7h.01m3.486 1.513h.01m-6.978 0h.01M6.99 12H7m9 4h2.706a1.957 1.957 0 0 0 1.883-1.325A9 9 0 1 0 3.043 12.89 9.1 9.1 0 0 0 8.2 20.1a8.62 8.62 0 0 0 3.769.9 2.013 2.013 0 0 0 2.03-2v-.857A2.036 2.036 0 0 1 16 16Z"
                 />
               </svg>
-              Design
+              Nilai Kami
             </span>
             <h2 className="text-heading text-3xl font-semobild my-4">
-              Start with Flowbite Design System
+              Komitmen pada Keamanan dan Ketepatan Waktu
             </h2>
             <p className=" font-normal text-body mb-4">
-              Static websites are now used to bootstrap lots of websites and are
-              becoming the basis for a variety of tools that even influence both
-              web designers and developers.
+              Kami menjunjung tinggi keamanan barang, kepatuhan terhadap regulasi, serta ketepatan waktu dalam setiap proses pengiriman. Seluruh layanan kami dikelola oleh tim profesional dengan standar operasional yang teruji.
             </p>
             <a
               href="#"
               className="text-fg-brand hover:underline font-medium text-lg inline-flex items-center"
             >
-              Read more
+              Pelajari Selengkapnya
               <svg
                 className="w-6 h-6 rtl:rotate-180 ms-1.5"
                 aria-hidden="true"
@@ -128,21 +124,19 @@ const Jumbotron = () => {
                   d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"
                 />
               </svg>
-              Code
+              Layanan
             </span>
             <h2 className="text-heading text-3xl font-semobild my-4">
-              Best react libraries around the web
+              Solusi Logistik Terintegrasi
             </h2>
             <p className=" font-normal text-body mb-4">
-              Static websites are now used to bootstrap lots of websites and are
-              becoming the basis for a variety of tools that even influence both
-              web designers and developers.
+              Kami menyediakan layanan export, import, freight forwarding, dan customs clearance dengan pendekatan terintegrasi. Setiap solusi dirancang untuk memberikan efisiensi biaya dan kelancaran distribusi barang lintas negara.
             </p>
             <a
               href="#"
               className="text-fg-brand hover:underline font-medium text-lg inline-flex items-center"
             >
-              Read more
+              Lihat Layanan
               <svg
                 className="w-6 h-6 rtl:rotate-180 ms-1.5"
                 aria-hidden="true"

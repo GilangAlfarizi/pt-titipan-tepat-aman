@@ -13,35 +13,26 @@ const LandingPage = () => {
 				<ServicesCard
 					imgSrc="https://www.partbargain.com/wp-content/uploads/demo/placeholder.svg"
 					imgAlt="service1"
-					title="Service 1"
-					description="Lorem ipsum dolor sit amet"
-					button="Call to Action"
-					cardDetail="With less than a month to go before the European Union
-										enacts new consumer privacy laws for its citizens, companies
-										around the world are updating their terms of service
-										agreements to comply"
+					title="Layanan Export"
+					description="Pengiriman barang ke berbagai negara dengan proses yang aman dan terkontrol"
+					button="Pelajari Lebih Lanjut"
+					cardDetail="Kami menangani seluruh proses export mulai dari dokumentasi, kepabeanan, hingga pengiriman ke negara tujuan. Dengan jaringan mitra internasional, PT Titipan Tepat Aman memastikan barang Anda sampai dengan aman dan tepat waktu."
 				/>
 				<ServicesCard
 					imgSrc="https://www.partbargain.com/wp-content/uploads/demo/placeholder.svg"
 					imgAlt="service2"
-					title="Service 2"
-					description="Lorem ipsum dolor sit amet"
-					button="Call to Action"
-					cardDetail="With less than a month to go before the European Union
-										enacts new consumer privacy laws for its citizens, companies
-										around the world are updating their terms of service
-										agreements to comply"
+					title="Layanan Import"
+					description="Solusi import barang yang cepat, legal, dan efisien"
+					button="Pelajari Lebih Lanjut"
+					cardDetail="Kami membantu proses import barang dari berbagai negara dengan pengurusan dokumen yang lengkap dan sesuai regulasi. Tim profesional kami memastikan kelancaran proses bea cukai hingga barang tiba di lokasi Anda."
 				/>
 				<ServicesCard
 					imgSrc="https://www.partbargain.com/wp-content/uploads/demo/placeholder.svg"
 					imgAlt="service3"
-					title="Service 3"
-					description="Lorem ipsum dolor sit amet"
-					button="Call to Action"
-					cardDetail="With less than a month to go before the European Union
-										enacts new consumer privacy laws for its citizens, companies
-										around the world are updating their terms of service
-										agreements to comply"
+					title="Freight & Customs Handling"
+					description="Pengelolaan pengiriman dan kepabeanan secara profesional"
+					button="Pelajari Lebih Lanjut"
+					cardDetail="Layanan freight forwarding dan customs handling kami dirancang untuk meminimalkan risiko dan waktu pengiriman. Dengan pengalaman dan keahlian di bidang logistik, kami memberikan solusi yang efisien dan terpercaya."
 				/>
 			</div>
 			<Banner />
